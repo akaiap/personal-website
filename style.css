@@ -21,7 +21,32 @@ body
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-
-
-    
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.home {
+     position: relative;
+     width: 100%;
+     justify-content: space-between;
+     height: 1000vh;
+     background-color: lightblue;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     padding: 70px 10% 0;
 }
