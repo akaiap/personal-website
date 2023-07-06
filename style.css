@@ -47,7 +47,7 @@ body
      width: 100%;
      justify-content: space-between;
      height: 1000vh;
-     background-color: rgb(196, 136, 87);
+     background-color: transparent;
      background-size: cover;
      background-position: center;
      display: flex;
