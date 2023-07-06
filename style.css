@@ -42,12 +42,12 @@ body
 .navbar a:hover{
     color: purple;
 }
-.home {
+.home-content {
      position: relative;
      width: 100%;
      justify-content: space-between;
      height: 1000vh;
-     background-color: transparent;
+     background-color: brown;
      background-size: cover;
      background-position: center;
      display: flex;
