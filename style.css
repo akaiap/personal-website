@@ -23,6 +23,7 @@ body
     z-index: 100;
 }
 .logo {
+    font-family: 'cursive';
     position: relative;
     font-size: 25px;
     color: #fff;
@@ -46,7 +47,7 @@ body
      width: 100%;
      justify-content: space-between;
      height: 1000vh;
-     background-color: lightblue;
+     background-color: rgb(196, 136, 87);
      background-size: cover;
      background-position: center;
      display: flex;
