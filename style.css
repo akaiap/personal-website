@@ -7,7 +7,7 @@
 }
 body 
 {
-    color: #ca2929;
+    color: #ededed;
 }
 .header
 {
@@ -47,7 +47,7 @@ body
      width: 100%;
      justify-content: space-between;
      height: 1000vh;
-     background-color: brown;
+     background-color: rgb(4, 0, 128);
      background-size: cover;
      background-position: center;
      display: flex;
