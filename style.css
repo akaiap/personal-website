@@ -42,16 +42,3 @@ body
 .navbar a:hover{
     color: lightyellow;
 }
-.home {
-     position:relative;
-     width: 100%;
-     justify-content: space-between;
-     height: 1000vh;
-     background-color: lightblue;
-     background-size: cover;
-     background-position: center;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     padding: 70px 10% 0;
-}
