@@ -24,7 +24,7 @@ body
     z-index: 100;
 }
 .logo {
-    text-shadow: 2px 2px 5px darkcyan;
+    text-shadow: 2px 2px 5px rgb(107, 6, 6);
     font-family: 'cursive';
     position: relative;
     font-size: 25px;
@@ -48,5 +48,5 @@ body
 .home {
     text-align: center;
     justify-content: space-between;
-    padding: center;
+    padding: 70px 10% 0;
 }
