@@ -45,6 +45,6 @@ body
 }
 
 .home {
-    align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
