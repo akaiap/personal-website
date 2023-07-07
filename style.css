@@ -51,6 +51,6 @@ body
      background-size: cover;
      background-position: center;
      display: flex;
-     align-items:baseline;
+     text-align: center;
      padding: 70px 10% 0;
 }
