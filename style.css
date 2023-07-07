@@ -45,7 +45,7 @@ body
 }
 
 .home {
-    text-align: center;
+    align-items: relative down 80px;
     font-size: x-large;
     font-family: cursive; 
     justify-content: space-between;
