@@ -7,7 +7,7 @@
 }
 body 
 {
-    background-color: tan;
+    background-color: lightcoral;
     color: black;
 }
 .header
@@ -50,4 +50,8 @@ body
     font-family: cursive; 
     justify-content: space-between;
     padding: 20px 20px 30px;
+}
+.footer {
+    margin-left: 35px;
+    color: #d3d3d3;
 }
