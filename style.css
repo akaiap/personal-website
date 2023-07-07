@@ -7,7 +7,7 @@
 }
 body 
 {
-    background-color: ta navajowhite;
+    background-color: tan;
     color: black;
 }
 .header
@@ -24,7 +24,7 @@ body
     z-index: 100;
 }
 .logo {
-    text-shadow: 2px 2px 5px rgb(107, 6, 6);
+    text-shadow: 2px 2px 5px gray;
     position: relative;
     font-size: 25px;
     color: #fff;
