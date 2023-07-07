@@ -7,8 +7,8 @@
 }
 body 
 {
-    background-color: lightblue;
-    color: #ededed;
+    background-color: ta navajowhite;
+    color: black;
 }
 .header
 {
@@ -25,7 +25,6 @@ body
 }
 .logo {
     text-shadow: 2px 2px 5px rgb(107, 6, 6);
-    font-family: 'cursive';
     position: relative;
     font-size: 25px;
     color: #fff;
@@ -48,7 +47,7 @@ body
 .home {
     text-align: center;
     font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     justify-content: space-between;
-    padding-bottom: 50%;
+    padding: 20px 20px 30px;
 }
