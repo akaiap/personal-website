@@ -43,3 +43,8 @@ body
 .navbar a:hover{
     color: rgb(33, 218, 144);
 }
+
+.home {
+    align-items: center;
+    justify-content: space-between;
+}
