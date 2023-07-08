@@ -48,7 +48,7 @@ body
 .home {
     /*align-items: stretch;*/
     position: relative;
-    margin-left: 50%;
+    margin-left: 20%;
     font-size:xx-large;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
