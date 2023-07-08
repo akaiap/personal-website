@@ -46,11 +46,10 @@ body
 }
 
 .home {
-    /*align-items: stretch;*/
-    /*position: relative; top: 400px center;*/
+    align-items: stretch;
+    position: relative; top: 400px left 200px;
     font-size:xx-large;
     font-family: cursive; 
     justify-content: space-between;
-    padding: -300px;
     font-family: 'Montserrat', sans-serif;
 }
