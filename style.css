@@ -32,6 +32,7 @@ body
     font-weight: 600;
 }
 .navbar a {
+    text-shadow: 2px 2px 5px gray;
     display: inline-block;
     font-size: 25px;
     color: #fff;
@@ -46,7 +47,7 @@ body
 
 .home {
     /*align-items: stretch;*/
-    position: relative; top: 400px center;
+    /*position: relative; top: 400px center;*/
     font-size:xx-large;
     font-family: cursive; 
     justify-content: space-between;
