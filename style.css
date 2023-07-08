@@ -7,8 +7,8 @@
 }
 body 
 {
-    background-color: rosybrown;
-    color: black;
+    background-color: #ece7e1;
+    color: #1a1818;;
 }
 .header
 {
@@ -51,5 +51,5 @@ body
     font-family: cursive; 
     justify-content: space-between;
     padding: -300px;
-    font-family:'Lily Script One' cursive;
+    font-family: 'Montserrat', sans-serif;
 }
