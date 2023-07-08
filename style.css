@@ -46,7 +46,7 @@ body
 }
 
 .home {
-    align-items: stretch;
+    /*align-items: stretch;*/
     position: relative; top: 400px;
     margin-right: 100%;
     font-size:xx-large;
