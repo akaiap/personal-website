@@ -45,17 +45,10 @@ body
 }
 
 .home {
-    align-items: relative;
-    font-size: x-large;
+    align-items: stretch;
+    font-size:xx-large;
     font-family: cursive; 
     justify-content: space-between;
     padding: -300px;
-}
-.resize {
-    width: 400px;
-    height: auto;
-}
-.resize {
-    width: 300px;
-    height: auto;
+    font-family:'Lily Script One' cursive;
 }
