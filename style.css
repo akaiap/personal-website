@@ -49,7 +49,11 @@ body
     /*align-items: stretch;*/
     position: relative;
     margin-left: 20%;
-    font-size:xx-large;
+    margin-top: 50%;
+    font-size:large;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
+}
+.Welcome {
+    font-family: 'Montserrat','Black 900 Italic' sans-serif;
 }
