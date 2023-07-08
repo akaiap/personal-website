@@ -45,7 +45,8 @@ body
 }
 
 .home {
-    align-items: stretch;
+    /*align-items: stretch;*/
+    position: relative; top: -20px;
     font-size:xx-large;
     font-family: cursive; 
     justify-content: space-between;
