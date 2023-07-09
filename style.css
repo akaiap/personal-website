@@ -1,17 +1,18 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
-body 
-{
+
+body {
     background-color: #ece7e1;
-    color: #1a1818;;
+    color: #1a1818;
+    ;
 }
-.header
-{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,6 +24,7 @@ body
     align-items: center;
     z-index: 100;
 }
+
 .logo {
     text-shadow: 2px 2px 5px gray;
     position: relative;
@@ -31,6 +33,7 @@ body
     text-decoration: none;
     font-weight: 600;
 }
+
 .navbar a {
     text-shadow: 2px 2px 5px gray;
     display: inline-block;
@@ -41,7 +44,8 @@ body
     margin-left: 35px;
     transition: .3s;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: rgb(33, 218, 144);
 }
 
@@ -50,10 +54,18 @@ body
     position: relative;
     margin-left: 15%;
     margin-top: 20%;
-    font-size:large;
+    font-size: large;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
 }
+
 .welcome {
-    font-family: 'Montserrat','Black 900 Italic' sans-serif;
+    font-family: 'Montserrat', 'Black 900 Italic' sans-serif;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }
