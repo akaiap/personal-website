@@ -64,6 +64,7 @@ body {
 }
 
 .footer {
+    align-items: baseline;
     text-align: center;
     padding: 3px;
     background-color: DarkSalmon;
