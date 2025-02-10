@@ -78,7 +78,7 @@ body {
     display:block;
     align-items: baseline;
     text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
+    padding: 1px;
+    background-color: black;
     color: white;
 }
