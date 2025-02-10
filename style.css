@@ -74,14 +74,15 @@ body {
     cursor: pointer;
   }
 
-.footer {
-    display:block;
-    align-items: baseline;
-    text-align: center;
-    padding: 1px;
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: white;
-}
+    text-align: center;
+    padding: 1px;
+  }
 
 .contact-me {
         padding: 20px;
