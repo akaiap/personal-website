@@ -82,3 +82,39 @@ body {
     background-color: black;
     color: white;
 }
+
+.contact-me {
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .contact-me h2 {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      
+      .contact-me form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .contact-me label {
+        margin: 8px 0 4px;
+      }
+      
+      .contact-me input,
+      .contact-me textarea {
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+      }
+      
+      .contact-me button {
+        padding: 10px;
+        background-color: #2F4F4F;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+      }
