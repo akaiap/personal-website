@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #6a6a6a;
+  background-color: #f5f1eb;
   color: #1a1818;
 }
 
@@ -129,3 +129,14 @@ body {
   color: white;
   font-size: 14px;
 }
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+
+}
+
