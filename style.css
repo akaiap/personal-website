@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background-color: #ece7e1;
+  background-color: #f5f1eb;
   color: #1a1818;
 }
 
@@ -17,19 +17,22 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 25vh; /* Set the height to a quarter of the screen */
-  padding: 15px 10%;
-  color: #1a1818;
+  height: 12vh; /* Slightly reduced height */
+  padding: 10px 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #1a1818; /* Darker for contrast */
 }
 
 .logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
 .navbar a {
@@ -41,28 +44,50 @@ body {
 }
 
 .navbar a:hover {
-  color: #9c22c5;
+  color: #c084f5;
 }
 
 /* Home Section */
 .home {
   text-align: center;
   padding: 100px 20px;
-  margin-top: 100px;
+  margin-top: 120px;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.home p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
 }
 
 .button {
   background-color: #9c22c5;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .button:hover {
-  background-color: #372a37;
+  background-color: #7a1b9e;
+}
+
+/* Skills Section */
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  list-style: none;
+  padding: 20px;
 }
 
 /* Contact Form */
@@ -76,24 +101,29 @@ body {
 .contact-me input, 
 .contact-me textarea {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 .contact-me button {
   background-color: #2F4F4F;
   color: white;
-  padding: 10px;
+  padding: 12px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Footer */
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  position: relative;
+  padding: 25px;
+  background: #1a1818;
   text-align: center;
-  padding: 15px;
-  background: black;
+}
+
+.footer p {
   color: white;
+  font-size: 14px;
 }
