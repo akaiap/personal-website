@@ -1,121 +1,95 @@
+/* Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: #ece7e1;
-    color: #1a1818;
-    ;
+  background-color: #ece7e1;
+  color: #1a1818;
 }
 
+/* Header */
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 10%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    text-shadow: 2px 2px 5px gray;
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .navbar a {
-    text-shadow: 2px 2px 5px gray;
-    display: inline-block;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-    color: rgb(33, 218, 144);
+  color: #22c55e;
 }
 
+/* Home Section */
 .home {
-    /*align-items: stretch;*/
-    position: relative;
-    margin-left: 15%;
-    margin-top: 20%;
-    font-size: large;
-    justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 100px 20px;
+  margin-top: 100px;
 }
 
-.welcome {
-    font-family: 'Montserrat', 'Black 900 Italic' sans-serif;
-}
 .button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+  background-color: #22c55e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-  .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1px;
-  }
+.button:hover {
+  background-color: #1e9b53;
+}
 
+/* Contact Form */
 .contact-me {
-        padding: 20px;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-      
-      .contact-me h2 {
-        margin-bottom: 10px;
-        text-align: center;
-      }
-      
-      .contact-me form {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .contact-me label {
-        margin: 8px 0 4px;
-      }
-      
-      .contact-me input,
-      .contact-me textarea {
-        padding: 8px;
-        margin-bottom: 12px;
-        border: 1px solid #ccc;
-      }
-      
-      .contact-me button {
-        padding: 10px;
-        background-color: #2F4F4F;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        width: 100px;
-      }
+  padding: 40px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contact-me input, 
+.contact-me textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact-me button {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: black;
+  color: white;
+}
