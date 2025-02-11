@@ -117,7 +117,9 @@ body {
 
 /* Footer */
 .footer {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 25px;
   background: #1a1818;
   text-align: center;
