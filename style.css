@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #22c55e;
+  color: #9c22c5;
 }
 
 /* Home Section */
@@ -51,7 +51,7 @@ body {
 }
 
 .button {
-  background-color: #22c55e;
+  background-color: #9c22c5;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -61,7 +61,7 @@ body {
 }
 
 .button:hover {
-  background-color: #1e9b53;
+  background-color: #372a37;
 }
 
 /* Contact Form */
@@ -88,6 +88,9 @@ body {
 
 /* Footer */
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   padding: 15px;
   background: black;
