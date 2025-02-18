@@ -13,6 +13,7 @@ body {
 
 /* Header */
 .header {
+  color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
   position: fixed;
   top: 0;
   left: 0;
@@ -128,7 +129,7 @@ body {
 }
 
 .footer p {
-  color: white;
+  color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
   font-size: 14px;
 }
 
