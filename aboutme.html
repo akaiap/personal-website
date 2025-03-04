@@ -3,29 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>About Me</title>
+  <title>A'Kaia Phelps | About Me</title>
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
   <header class="header">
-    <a href="index.html" class="logo">A'Kaia Phelps</a>
+    <a href="home.html" class="logo">A'Kaia Phelps</a>
     <nav class="navbar">
-      <a href="index.html">Home</a>
+      <a href="aboutme.html" class="active">About Me</a>
       <a href="skills.html">Skills</a>
-      <a href="projects.html">Projects</a>
+      <a href="home.html">Projects</a>
       <a href="contact.html">Contact</a>
+      <a href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing">Resume</a>
     </nav>
   </header>
 
-  <section class="about-me">
-    <h2>About Me</h2>
-    <img class="me" src="photos/DSC05898.jpg" alt="A'Kaia Phelps" width="200" height="200">
-    <p>I'm a passionate computer scientist exploring AI, game development, and cybersecurity.</p>
+  <section class="about-hero">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="photos/DSC05898.jpg" alt="A'Kaia Phelps" />
+      </div>
+      <div class="about-content">
+        <h1>About Me</h1>
+        <p class="lead-text"> Hi! I am a third year univeristy student at Loyola Marymount Univeristy! 
+          Software developer with a passion for creating elegant solutions to complex problems.</p>
+        <p>I specialize in [your specialties] with [X] years of experience building [type of applications/projects]. My approach combines technical expertise with creative problem-solving to deliver exceptional results.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">X+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Y+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Z+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience">
+    <div class="container">
+      <h2>Experience & Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Software and Program Manager Intern</h3>
+            <p class="timeline-date"> Microsft | May 2024 - August 2024</p>
+            <p>Brief description of your role, responsibilities, and key achievements.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Research Assistant</h3>
+            <p class="timeline-date"> GRNsight| 20XX - Present</p>
+            <p>Brief description of your role, responsibilities, and key achievements.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>IT Technician</h3>
+            <p class="timeline-date">University/Institution | 20XX - 20XX</p>
+            <p>Brief description of your educational background, major, and any notable achievements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="personal">
+    <div class="container">
+      <h2>Beyond Coding</h2>
+      <div class="interests-grid">
+        <div class="interest-card">
+          <i class="fas fa-music interest-icon"></i>
+          <h3>Climbing</h3>
+          <p>Brief description of your personal interest or hobby.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-book interest-icon"></i>
+          <h3>Hiking</h3>
+          <p>Brief description of your personal interest or hobby.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-certificate interest-icon"></i>
+          <h3>Cooking!</h3>
+          <p>Brief description of your personal interest or hobby.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer class="footer">
-    <p>© 2025 A'Kaia Phelps. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>© 2025 A'Kaia Phelps</p>
   </footer>
 
 </body>

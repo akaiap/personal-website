@@ -3,39 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>Contact</title>
+  <title>A'Kaia Phelps | Contact</title>
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
   <header class="header">
-    <a href="index.html" class="logo">A'Kaia Phelps</a>
+    <a href="home.html" class="logo">A'Kaia Phelps</a>
     <nav class="navbar">
-      <a href="index.html">Home</a>
       <a href="aboutme.html">About Me</a>
       <a href="skills.html">Skills</a>
-      <a href="projects.html">Projects</a>
+      <a href="home.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing">Resume</a>
     </nav>
   </header>
 
-  <section class="contact-me">
-    <h2>Contact Me</h2>
-    <form action="contactform.php" method="post">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Send</button>
-    </form>
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p class="lead-text">Interested in working together? Let's connect.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:your.email@example.com">akaia.phs@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Los Angeles, CA, United States</p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-link"></i>
+            <div>
+              <h3>Social</h3>
+              <div class="mini-social-links">
+                <a href="https://github.com/akaiap" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                <a href="www.linkedin.com/in/akaiaphelps" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h2>Send me a message!</h2>
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer class="footer">
-    <p>© 2025 A'Kaia Phelps. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/akaiap" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="www.linkedin.com/in/akaiaphelps" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>© 2025 A'Kaia Phelps</p>
   </footer>
 
 </body>

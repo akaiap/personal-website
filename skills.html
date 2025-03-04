@@ -1,44 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200;1,500;1,900&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A'Kaia Phelps | Skills</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>My Skills</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Communication</li>
-                <li>Teamwork</li>
-                <li>Problem-solving</li>
-                <li>Time Management</li>
-                <li>Adaptability</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
+
+  <header class="header">
+    <a href="home.html" class="logo">A'Kaia Phelps</a>
+    <nav class="navbar">
+      <a href="aboutme.html">About Me</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="home.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing">Resume</a>
+    </nav>
+  </header>
+
+  <section class="skills-hero">
+    <div class="container">
+      <h1>My Skills</h1>
+      <p class="lead-text">A collection of technologies and tools I work with</p>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <div class="container">
+      
+      <div class="skill-category">
+        <h2><i class="fas fa-code"></i> Programming Languages</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon javascript">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+              <span>Advanced</span>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon python">
+              <i class="fab fa-python"></i>
+            </div>
+            <h3>Python</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+              <span>Advanced</span>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon java">
+              <i class="fab fa-java"></i>
+            </div>
+            <h3>Java</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+              <span>Intermediate</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="skill-category gradient-bg">
+        <h2><i class="fas fa-globe"></i> Web Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon html">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 95%"></div>
+              </div>
+              <span>Expert</span>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon css">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+              <span>Advanced</span>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon react">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <div class="skill-level">
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+              <span>Advanced</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h2><i class="fas fa-tools"></i> Tools & Other Skills</h2>
+        <div class="skills-badge-container">
+          <div class="skill-badge">Git</div>
+          <div class="skill-badge">Docker</div>
+          <div class="skill-badge">AWS</div>
+          <div class="skill-badge">Figma</div>
+          <div class="skill-badge">Photoshop</div>
+          <div class="skill-badge">UI/UX Design</div>
+          <div class="skill-badge">Responsive Design</div>
+          <div class="skill-badge">SEO</div>
+          <div class="skill-badge">Agile</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="certifications">
+    <div class="container">
+      <h2>Certifications & Training</h2>
+      <div class="certification-grid">
+        <div class="certification-card">
+          <div class="certification-logo">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Certification Title</h3>
+            <p>Issuing Organization</p>
+            <span class="cert-date">Obtained: Month Year</span>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="social-links">
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>© 2025 A'Kaia Phelps</p>
+  </footer>
+
 </body>
 </html>
