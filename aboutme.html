@@ -2,130 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title>A'Kaia Phelps | About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A'Kaia Phelps | About</title>
   <link href="style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
   <header class="header">
-    <a href="index.html" class="logo">A'Kaia Phelps</a>
-    <nav class="navbar">
-      <a href="aboutme.html" class="active">About Me</a>
-      <a href="skills.html">Skills</a>
-      <a href="index.html">Projects</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing">Resume</a>
-    </nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">A'Kaia Phelps</a>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="aboutme.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="index.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="resume-link" href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+    </div>
   </header>
 
-  <section class="about-hero">
-    <div class="about-container">
-      <div class="about-image">
-        <img src="photos/Hiking.jpeg" alt="A'Kaia Phelps" />
+  <main>
+    <section class="about-hero">
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h1>How I work</h1>
+          <p class="lead-text">I’m A’Kaia, a Computer Science graduate from Loyola Marymount University and incoming M.S. Engineering Management student at Purdue University. My work blends technical problem-solving, product thinking, frontend development, and UX/UI design.</p>
+          <p>Across research, internships, and client work, I enjoy turning complex ideas into clear, human-centered experiences. I collaborate with design and engineering teams to shape product direction, build structure, and deliver practical outcomes.</p>
+          <div class="about-highlights">
+            <div>
+              <strong>Microsoft / Xbox TPM</strong>
+              <span>Coordinated cross-functional workstreams and technical releases.</span>
+            </div>
+            <div>
+              <strong>GRNsight research</strong>
+              <span>Modernized visualization tooling and CI/CD for a web science application.</span>
+            </div>
+            <div>
+              <strong>Client web design</strong>
+              <span>Designed polished website refreshes with friendly visual systems.</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="photos/Hiking.jpeg" alt="A'Kaia Phelps on a hiking trail">
+        </div>
       </div>
-      <div class="about-content">
-        <h1>About Me</h1>
-        <p class="lead-text">Hi! I’m A’Kaia.
-          <br>
-           A third-year Computer Science student at Loyola Marymount University passionate about building impactful software.
+    </section>
 
-          At LMU, I work on computational biology research, building tools to uncover patterns in gene regulatory networks and optimized CI/CD pipelines to improve build and release processes.
-          I also interned at Microsoft Xbox, where I built internal tools for game developers.
-          With a strong mix of technical skills, creativity, and collaboration, I’m excited to keep building technology that makes a difference.     
-      </p>
-      </p>
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-number">3+</span>
-            <span class="stat-label">Years Studying Computer Science</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">5+</span>
-            <span class="stat-label">Projects Completed</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">2</span>
-            <span class="stat-label">Industry Internships</span>
-          </div>
-        </div>
+    <section class="experience-section">
+      <div class="section-intro">
+        <p class="eyebrow">Experience</p>
+        <h2>Selected work</h2>
       </div>
-    </div>
-  </section>
+      <div class="experience-grid">
+        <article class="feature-card">
+          <h3>Technical Program Manager Intern</h3>
+          <p class="feature-meta">Microsoft / Xbox | May 2024 – Aug 2024</p>
+          <ul>
+            <li>Supported alignment across engineering, design, and product teams during internal feature launches.</li>
+            <li>Created working session plans, tracked project milestones, and surfaced risk early to keep delivery on schedule.</li>
+            <li>Improved team communication by documenting decisions, requirements, and readiness checkpoints.</li>
+          </ul>
+        </article>
+        <article class="feature-card">
+          <h3>Research Assistant</h3>
+          <p class="feature-meta">GRNsight | 2024 – Present</p>
+          <ul>
+            <li>Enhanced a gene regulatory network visualization app with JavaScript, Node.js, Express, and D3.js.</li>
+            <li>Modernized CI/CD workflows with GitHub Actions for build automation, linting, and test execution.</li>
+            <li>Updated compatibility paths for module systems and supported data import/export formats.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-  <section class="experience">
-    <div class="container">
-      <h2>Experience & Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>Software and Program Manager Intern</h3>
-            <p class="timeline-date"> Microsft | May 2024 - August 2024</p>
-            <p>I interned at Microsoft Xbox as a Software and Program Manager Intern, where I built 
-              internal tools for game developers and helped release processes. 
-              Collaborating across engineering and product teams. </p>
-          </div>
-        </div>
-        
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>Research Assistant</h3>
-            <p class="timeline-date"> GRNsight | 2024 - Present</p>
-            <p> -Collaborated with the LMU Bioinformatics and Biomathematics Groups on GRNsight, a web application for gene regulatory network visualization. 
-              <br>
-              - Maintained and debugged file export/import functionality, enabling support for Excel workbooks, Simple Interaction Format (SIF) files, and GraphML XML files. <br>
-              - Utilized JavaScript, Node.js, Express, and D3.js to enhance web functionality and data visualization.<br>
-              - Migrated GRNsight’s CI/CD pipeline from Travis CI to GitHub Actions, automating builds, unit tests, and linting to improve development efficiency and maintainability. <br>
-              - Researched and addressed compatibility issues resulting from dependency updates, including transitions from CommonJS to ES Modules and the migration from ESLint 8 to ESLint 9, ensuring the project adhered to modern JavaScript and Node.js standards. <br>
-              - Documented dependency updates ( Express, Cytoscape, Sequelize, Moment.js, Webpack, Mocha, and Coveralls) providing clear  context and upgrade pathways for future developers. <br>
-              - Investigated and resolved module loading conflicts related to Chai.should(), balancing best practices for imports with the project’s evolving module system (CommonJS vs. ESM). Proposed long-term solutions for test framework modernization.</p>
-          </div>
-        </div>
-        
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <h3>IT Technician</h3>
-            <p class="timeline-date">University/Institution | 20XX - 20XX</p>
-            <p>• Assists and provides solutions regarding various technology-related issues. Consists of hardware and software problems, troubleshooting technical issues, and providing guidance on the use of educational technology tools.
-              • Works closely with educators, administrators, and IT professionals to ensure that students have access to the technology resources and support they need to succeed.</p>
-          </div>
-        </div>
+    <section class="focus-section">
+      <div class="section-intro">
+        <p class="eyebrow">What I bring</p>
+        <h2>Capabilities that bridge product, design, and engineering.</h2>
       </div>
-    </div>
-  </section>
+      <div class="focus-grid">
+        <article class="focus-card">
+          <h3>Product & Program</h3>
+          <p>Roadmaps, stakeholder collaboration, project structure, and launch planning.</p>
+        </article>
+        <article class="focus-card">
+          <h3>UX & Design</h3>
+          <p>High-level concepts, responsive web layout, client website refreshes, and visual polish.</p>
+        </article>
+        <article class="focus-card">
+          <h3>Development</h3>
+          <p>JavaScript, Node.js, D3.js, web workflows, and developer tooling for modern applications.</p>
+        </article>
+      </div>
+    </section>
 
-  <section class="personal">
-    <div class="container">
-      <h2>Beyond Coding</h2>
-      <div class="interests-grid">
-        <div class="interest-card">
-          <!-- <i class="fa-solid fa-hill-rockslide"></i> -->
-          <h3>Climbing!</h3>
-        </div>
-        <div class="interest-card">
-          <h3>Hiking!</h3>
-        </div>
-        <div class="interest-card">
-          <h3>Cooking!</h3>
-        </div>
+    <section class="education-section">
+      <div class="education-card">
+        <h2>Education</h2>
+        <p>Loyola Marymount University — B.S. Computer Science</p>
+        <p>Purdue University — Incoming M.S. Engineering Management</p>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="social-links">
-      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <div class="footer-inner">
+      <p>© 2026 A'Kaia Phelps</p>
+      <div class="social-links">
+        <a href="https://github.com/akaiap" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/akaiaphelps/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
-    <p>© 2025 A'Kaia Phelps</p>
   </footer>
-
 </body>
 </html>

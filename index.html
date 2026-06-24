@@ -2,157 +2,180 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title>A'Kaia Phelps | Home</title>
-  <!-- Link to the CSS file -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A'Kaia Phelps | Product Portfolio</title>
   <link href="style.css" rel="stylesheet">
-
-  <!-- google fonts preconnect & font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap" rel="stylesheet">
-  <!-- font awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
   <header class="header">
-    <a href="index.html" class="logo">A'Kaia Phelps</a>
-    <nav class="navbar">
-      <a href="aboutme.html">About Me</a>
-      <a href="skills.html">Skills</a>
-      <a href="#featured-work">Projects</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing">Resume</a>
-    </nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">A'Kaia Phelps</a>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="aboutme.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="#featured-work">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="resume-link" href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
+    </div>
   </header>
 
-  <!-- hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="profile-image">
-        <img src="photos/DSC05898.jpg" alt="A'Kaia Phelps Profile Picture">
-      </div>
-      <h1>A'Kaia Phelps</h1>
-      <p class="tagline">Software Developer & Designer</p>
-      <div class="hero-buttons">
-        <a href="#featured-work" class="btn primary">View Projects</a>
-        <a href="contact.html" class="btn secondary">Contact Me</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- featured work section -->
-  <section id="featured-work" class="featured-work">
-    <h2>Projects</h2>
-    
-    <div class="project-grid">
-      <!-- Project 1 -->
-      <div class="project-card">
-        <div class="project-image">
-            <img src="photos/teapot copy.png" alt="Project 1" loading="lazy" style="width: 100%; max-width: 300px; display: block; margin: 0 auto;" />
+  <main>
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Product-minded technologist & UX-focused collaborator</p>
+          <h1>A'Kaia Phelps</h1>
+          <p class="hero-lead">I build thoughtful digital experiences at the intersection of product, UX/UI design, software development, and technical program management.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#featured-work">View Work</a>
+            <a class="btn secondary" href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn outline" href="contact.html">Contact Me</a>
+          </div>
+          <ul class="hero-summary">
+            <li>LMU Computer Science graduate</li>
+            <li>Former Xbox Technical Program Manager intern</li>
+            <li>Incoming Purdue M.S. Engineering Management student</li>
+          </ul>
         </div>
-        <div class="project-info">
-          <h3>MatchaPour</h3>
-          <p>Matcha Pour is a cozy, timing-based mobile app where players pour 
-            the perfect cup of matcha by tilting a teapot and filling an 
-            adorable teacup to just the right level. 
-            Too little or too much and it’s game over!☕️</p>
-          <a href="https://github.com/akaiap/MatchaPour" class="project-link">Github</a>
-        </div>
-      </div>
-      
-      <!-- Project 2
-      <div class="project-card">
-        <div class="project-image">
-          <img src="images/photo2.jpg" alt="Project 2" loading="lazy" />
-        </div>
-        <div class="project-info">
-          <h3>Project Name</h3>
-          <p>Brief description of the project and technologies used.</p>
-          <a href="#" class="project-link">View Details</a>
-        </div>
-      </div>
-      
-      <!-- Project 3 -->
-      <!-- <div class="project-card">
-        <div class="project-image">
-          <img src="images/photo3.jpg" alt="Project 3" loading="lazy" />
-        </div>
-        <div class="project-info">
-          <h3>Project Name</h3>
-          <p>Brief description of the project and technologies used.</p>
-          <a href="#" class="project-link">View Details</a>
-        </div>
-      </div>
-    </div> -->
-  </section>
-
-  <!-- main content section -->
-  <section class="home">
-    <!-- Minimal 3-Photo Grid -->
-    <h1 style="display:none;">Hidden Title for SEO</h1>
-   
-
-    <section class="three-photo-showcase">
-      <h2>Fun Pictures!</h2>
-      <p class="showcase-intro">
-        Random things for the month of March! 📸
-      </p>
-      
-      <div class="image-grid">
-        <!-- Photo 1 -->
-        <div class="image-card">
-          <img src="photos/Eddie.jpeg" alt="Description of Photo 1" />
-          <h3>Eddison</h3>
-          <p>My cute black lab Eddie</p>
-        </div>
-    
-        <!-- Photo 2 -->
-        <div class="image-card">
-          <img src="photos/Hiking.jpeg" alt="Description of Photo 2" />
-          <h3>My first hike!</h3>
-          <p>Lake 22 -- Seattle, Washington </p>
-        </div>
-    
-        <!-- Photo 3 -->
-        <div class="image-card">
-          <img src="photos/Matchasoda.jpeg" alt="Description of Photo 3" />
-          <h3>I found Matcha Soda!</h3>
-          <p>Feeding my matcha addiction...</p>
+        <div class="hero-card">
+          <div class="hero-image">
+            <img src="photos/DSC05898.jpg" alt="A'Kaia Phelps portrait" loading="eager">
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span>Product strategy</span>
+              <p>Research, team alignment, outcomes</p>
+            </div>
+            <div>
+              <span>UX & design</span>
+              <p>Wireframes, visual systems, user flows</p>
+            </div>
+            <div>
+              <span>Engineering</span>
+              <p>JavaScript, Node.js, D3.js, CI/CD</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  </section>
+
+    <section class="work-overview">
+      <div class="section-intro">
+        <p class="eyebrow">What I do</p>
+        <h2>Work that connects people, process, and product.</h2>
+        <p>My strongest contributions come from turning research into alignment, building clear project structure, and shaping digital experiences with design and engineering teams.</p>
+      </div>
+      <div class="overview-grid">
+        <article class="overview-card">
+          <h3>Product & Program</h3>
+          <p>Roadmapping, stakeholder alignment, technical requirements, release coordination, and team communication.</p>
+        </article>
+        <article class="overview-card">
+          <h3>UX & Design</h3>
+          <p>Visual systems, interaction design, client-facing website redesigns, and user-centered layout work.</p>
+        </article>
+        <article class="overview-card">
+          <h3>Development</h3>
+          <p>Front-end interfaces, JavaScript tooling, Node.js services, data visualization, and modern web workflows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="featured-work" class="featured-work">
+      <div class="section-intro">
+        <p class="eyebrow">Featured work</p>
+        <h2>Case studies and meaningful projects.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-tag">Professional internship</p>
+            <h3>Xbox TPM Internship</h3>
+            <p>Supported cross-functional engineering and product teams at Xbox, helping coordinate workstreams, improve developer workflows, and move goals toward delivery.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: TPM intern</span>
+            <span>Tools: stakeholder alignment, roadmaps, Azure Boards</span>
+          </div>
+          <a href="contact.html" class="project-link">Discuss this work</a>
+        </article>
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-tag">Academic research</p>
+            <h3>GRNsight research assistant</h3>
+            <p>Modernized a gene regulatory network visualization tool with JavaScript, Node.js, Express, D3.js, and GitHub Actions to improve CI/CD and developer workflows.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: Research & engineering</span>
+            <span>Tools: D3.js, Node.js, GitHub Actions</span>
+          </div>
+          <a href="contact.html" class="project-link">Discuss this work</a>
+        </article>
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-tag">Client redesign</p>
+            <h3>Glad Tidings website redesign</h3>
+            <p>Delivered a modern website refresh with UX-focused content structure, polished visual presentation, and a smoother experience for the community.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: UX/UI and web design</span>
+            <span>Tools: Wix, wireframing, content strategy</span>
+          </div>
+          <a href="contact.html" class="project-link">Discuss this work</a>
+        </article>
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-tag">Creative concept</p>
+            <h3>MatchaPour mobile game</h3>
+            <p>Designed a playful interaction concept focused on timing, visual rhythm, and a warm brand identity for a small game experience.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: Product & UX design</span>
+            <span>Tools: visual design, interaction concept, GitHub</span>
+          </div>
+          <a href="https://github.com/akaiap/MatchaPour" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-tag">Brand concept</p>
+            <h3>Humble Home Daycare branding</h3>
+            <p>Created a friendly visual identity and website concept for a children’s care brand with soft color, personality, and approachable structure.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: Branding & layout</span>
+            <span>Tools: visual design, responsive layout, client collaboration</span>
+          </div>
+          <a href="contact.html" class="project-link">Discuss this work</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="intro-section">
+      <div class="intro-content">
+        <h2>Professional profile</h2>
+        <p>I’m A'Kaia, a Computer Science graduate from Loyola Marymount University and incoming M.S. Engineering Management student at Purdue University. My background includes technical program management at Xbox, research engineering for GRNsight, and client-facing web design work.</p>
+        <p>My work feels most grounded when it is warm, clear, and connected to real people. I enjoy shaping practical product direction while keeping design and engineering aligned around shared outcomes.</p>
+      </div>
+      <div class="intro-cta">
+        <p>Let’s connect on ideas, collaboration, or new opportunities.</p>
+        <a class="btn primary" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="social-links">
-      <a href="https://github.com/akaiap" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="www.linkedin.com/in/akaiaphelps     " aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <div class="footer-inner">
+      <p>© 2026 A'Kaia Phelps</p>
+      <div class="social-links">
+        <a href="https://github.com/akaiap" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/akaiaphelps/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
-    <p>© 2025 A'Kaia Phelps</p>
   </footer>
-
-  <script>
-    // smooth scrolling
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-          const headerHeight = document.querySelector('.header').offsetHeight;
-          const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-          
-          window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
-  </script>
 </body>
 </html>
