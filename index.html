@@ -17,107 +17,119 @@
       <nav class="navbar" aria-label="Primary navigation">
         <a href="aboutme.html">About</a>
         <a href="skills.html">Skills</a>
-        <a href="#featured-work">Work</a>
+        <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <a class="resume-link" href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing" target="_blank" rel="noopener">Resume</a>
     </div>
   </header>
 
   <main>
+
+    <!-- ── Hero ── -->
     <section class="hero">
+      <!-- Parallax gradient orbs -->
+      <div class="hero-orb hero-orb--1" data-parallax="-0.14" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb--2" data-parallax="0.18" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb--3" data-parallax="-0.08" aria-hidden="true"></div>
+
       <div class="hero-panel">
-        <div class="hero-copy">
-          <p class="eyebrow">Product-minded technologist & UX-focused collaborator</p>
-          <h1>A'Kaia Phelps</h1>
-          <p class="hero-lead">I build modern digital products with a blend of product strategy, UX systems, and front-end execution.</p>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">A'Kaia Phelps &middot; Product / Program / UX</p>
+          <h1>Building products that <span class="gradient-text">ship with clarity.</span></h1>
+          <p class="hero-lead">I connect product strategy, UX, and technical program management to move ideas from ambiguity to delivery — across timelines, teams, and user-centered digital experiences.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="#featured-work">View Work</a>
-            <a class="btn secondary" href="https://drive.google.com/file/d/1KtLiSH5yRoq--skea6biXR-qxb8FHlxN/view?usp=sharing" target="_blank" rel="noopener">Download Resume</a>
-            <a class="btn outline" href="contact.html">Contact Me</a>
+            <a class="btn primary" href="work.html">View Work</a>
           </div>
+          <p class="hero-contact-link"><a href="contact.html">Or get in touch →</a></p>
           <ul class="hero-summary">
             <li>LMU Computer Science graduate</li>
-            <li>Xbox TPM intern coordinating engineering delivery</li>
-            <li>Modern web tooling: JavaScript, React, Node.js, GitHub Actions</li>
+            <li>Microsoft Xbox TPM intern — Cloud Gaming programs</li>
+            <li>Purdue M.S. Engineering Management student</li>
           </ul>
         </div>
-        <div class="hero-card">
+
+        <div class="hero-card reveal">
           <div class="hero-image">
             <img src="photos/DSC05898.jpg" alt="A'Kaia Phelps portrait" loading="eager">
           </div>
           <div class="hero-stats">
             <div>
               <span>Product strategy</span>
-              <p>Research-driven direction, alignment, and launch planning.</p>
+              <p>Research-driven direction and launch planning.</p>
             </div>
             <div>
-              <span>UX & design</span>
-              <p>Interface systems, responsive design, and polished layout work.</p>
+              <span>UX &amp; design</span>
+              <p>Interface systems and polished layouts.</p>
             </div>
             <div>
               <span>Engineering</span>
-              <p>Front-end execution, data visuals, developer workflows, and CI/CD.</p>
+              <p>Front-end, data visuals, CI/CD.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="work-overview">
-      <div class="section-intro">
-        <p class="eyebrow">What I do</p>
-        <h2>Work that connects people, process, and product.</h2>
-        <p>My strongest contributions come from turning research into alignment, building clear project structure, and shaping digital experiences with design and engineering teams.</p>
+    <!-- ── Disciplines strip ── -->
+    <section class="disciplines">
+      <div class="section-orb" data-parallax="0.1" aria-hidden="true"></div>
+      <div class="disciplines-inner reveal">
+        <div class="discipline-item">
+          <i class="fas fa-project-diagram" aria-hidden="true"></i>
+          <strong>Product &amp; Program</strong>
+          <span>Roadmapping, timelines, stakeholder alignment, release coordination</span>
+        </div>
+        <div class="discipline-sep" aria-hidden="true"></div>
+        <div class="discipline-item">
+          <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+          <strong>UX &amp; Design</strong>
+          <span>User-centered layouts, visual systems, accessible experiences</span>
+        </div>
+        <div class="discipline-sep" aria-hidden="true"></div>
+        <div class="discipline-item">
+          <i class="fas fa-code" aria-hidden="true"></i>
+          <strong>Technical Delivery</strong>
+          <span>Front-end, data visuals, CI/CD, and technical workflows</span>
+        </div>
       </div>
-      <div class="overview-grid">
-        <article class="overview-card">
-          <h3>Product & Program</h3>
-          <p>Roadmapping, stakeholder alignment, technical requirements, release coordination, and team communication.</p>
+    </section>
+
+    <!-- ── Featured Work ── -->
+    <section id="featured-work" class="featured-work">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Featured work</p>
+        <h2>Case studies and meaningful projects.</h2>
+      </div>
+      <div class="project-grid stagger">
+        <article class="project-card reveal">
+          <span class="project-num" aria-hidden="true">01</span>
+          <div class="project-copy">
+            <p class="project-tag">Professional internship</p>
+            <h3>Xbox TPM Internship</h3>
+            <p>Coordinated cross-functional engineering programs for Xbox Cloud Gaming — from hardware and OS workstreams to player research synthesis and leadership presentations at Microsoft.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: TPM Intern &middot; Microsoft Xbox</span>
+            <span>Azure Boards &middot; player research &middot; stakeholder comms</span>
+          </div>
+          <a href="work.html#xbox" class="project-link">Read case study</a>
         </article>
-        <article class="overview-card">
-          <h3>UX & Design</h3>
-          <p>Visual systems, interaction design, client-facing website redesigns, and user-centered layout work.</p>
-        </article>
-        <article class="overview-card">
-          <h3>Development</h3>
-          <p>Front-end interfaces, JavaScript tooling, Node.js services, data visualization, and modern web workflows.</p>
+        <article class="project-card reveal">
+          <span class="project-num" aria-hidden="true">02</span>
+          <div class="project-copy">
+            <p class="project-tag">Academic research</p>
+            <h3>GRNsight research assistant</h3>
+            <p>Modernized an open-source gene regulatory network visualization tool — building CI/CD pipelines, improving D3.js components, and improving the developer experience end-to-end.</p>
+          </div>
+          <div class="project-meta">
+            <span>Role: Research &amp; Engineering &middot; LMU</span>
+            <span>D3.js &middot; Node.js &middot; GitHub Actions</span>
+          </div>
+          <a href="work.html#grnsight" class="project-link">Read case study</a>
         </article>
       </div>
     </section>
 
-    <section id="featured-work" class="featured-work">
-      <div class="section-intro">
-        <p class="eyebrow">Featured work</p>
-        <h2>Case studies and meaningful projects.</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-copy">
-            <p class="project-tag">Professional internship</p>
-            <h3>Xbox TPM Internship</h3>
-            <p>Supported cross-functional engineering and product teams at Xbox, helping coordinate workstreams, improve developer workflows, and move goals toward delivery.</p>
-          </div>
-          <div class="project-meta">
-            <span>Role: TPM intern</span>
-            <span>Tools: stakeholder alignment, roadmaps, Azure Boards</span>
-          </div>
-          <a href="contact.html" class="project-link">Discuss this work</a>
-        </article>
-        <article class="project-card">
-          <div class="project-copy">
-            <p class="project-tag">Academic research</p>
-            <h3>GRNsight research assistant</h3>
-            <p>Modernized a gene regulatory network visualization tool with JavaScript, Node.js, Express, D3.js, and GitHub Actions to improve CI/CD and developer workflows.</p>
-          </div>
-          <div class="project-meta">
-            <span>Role: Research & engineering</span>
-            <span>Tools: D3.js, Node.js, GitHub Actions</span>
-          </div>
-          <a href="contact.html" class="project-link">Discuss this work</a>
-        </article>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
@@ -130,6 +142,7 @@
         <a href="index.html">Home</a>
         <a href="aboutme.html">About</a>
         <a href="skills.html">Skills</a>
+        <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </div>
       <div class="footer-contact">
@@ -142,5 +155,44 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    // Progressive enhancement flag — keeps elements visible if JS is off
+    document.documentElement.classList.add('js-ready');
+
+    // ── Scroll reveal ──
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -48px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ── Gradient parallax ──
+    const parallaxEls = document.querySelectorAll('[data-parallax]');
+    let rafPending = false;
+
+    function runParallax() {
+      const y = window.scrollY;
+      parallaxEls.forEach(el => {
+        const speed = parseFloat(el.dataset.parallax);
+        el.style.transform = `translateY(${y * speed}px)`;
+      });
+      rafPending = false;
+    }
+
+    if (parallaxEls.length) {
+      window.addEventListener('scroll', () => {
+        if (!rafPending) {
+          requestAnimationFrame(runParallax);
+          rafPending = true;
+        }
+      }, { passive: true });
+    }
+  </script>
 </body>
 </html>
